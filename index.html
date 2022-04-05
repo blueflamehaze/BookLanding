@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/libro.png" type="image/x-icon" />
+    <title>Delirium -Landing</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/delirium-logo.png" alt="Delirium logo" class="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse position-absolute end-0 pr__2"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#autora">Autora</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Saga
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#saga">Delirum</a></li>
+                  <li><a class="dropdown-item" href="#saga">Pandemonium</a></li>
+                  <li><a class="dropdown-item" href="#saga">Requirem</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#otrasObras">Otras obras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselBooks" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselBooks"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselBooks"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselBooks"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/banner1.png"
+              class="d-block w-100"
+              alt="Delirium cover"
+            />
+            <div class="carousel-caption container" style="z-index: 9">
+              <div class="row align-items-center">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                  <p class="book__title">Delirium</p>
+                  <p class="book__subtitle">by</p>
+                  <p class="book__subtitle">Lauren Oliver</p>
+                  <p class="book__description">
+                    En un mundo donde el amor es una enfermedad,
+                    <strong>¡Atrévete a amar!</strong>
+                  </p>
+                  <div>
+                    <button type="button" class="btn book__button">
+                      <a
+                        href="https://www.amazon.com.mx/Delirium-Lauren-Oliver/dp/6072406823"
+                        target="_blank"
+                        >Comprar</a
+                      >
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 text__left mobile__img"
+                >
+                  <img src="img/delirium1.png" class="cover__img" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/banner2.png"
+              class="d-block w-100"
+              alt="Pandemonium cover"
+            />
+            <div class="carousel-caption container" style="z-index: 9">
+              <div class="row align-items-center">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                  <p class="book__title">Pandemonium</p>
+                  <p class="book__subtitle">by</p>
+                  <p class="book__subtitle">Lauren Oliver</p>
+                  <p class="book__description">
+                    En un mundo donde el amor es una enfermedad,
+                    <strong>¡Atrévete a resistir!</strong>
+                  </p>
+                  <div>
+                    <button type="button" class="btn book__button">
+                      <a
+                        href="https://www.amazon.com.mx/Pandemonium-Lauren-Oliver/dp/006197806X"
+                        target="_blank"
+                        >Comprar</a
+                      >
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 text__left mobile__img"
+                >
+                  <img src="img/pandemonium1.png" class="cover__img" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/banner3.png"
+              class="d-block w-100"
+              alt="Requirem cover"
+            />
+            <div class="carousel-caption container" style="z-index: 9">
+              <div class="row align-items-center">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                  <p class="book__title">Requiem</p>
+                  <p class="book__subtitle">by</p>
+                  <p class="book__subtitle">Lauren Oliver</p>
+                  <p class="book__description">
+                    En un mundo donde el amor es una enfermedad,
+                    <strong>¡Atrévete a ser libre!</strong>
+                  </p>
+                  <div>
+                    <button type="button" class="btn book__button">
+                      <a
+                        href="https://www.amazon.com.mx/Requiem-Lauren-Oliver/dp/0062014544/ref=pd_lpo_2?pd_rd_i=0062014544&psc=1"
+                        target="_blank"
+                        >Comprar</a
+                      >
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 text__left mobile__img"
+                >
+                  <img src="img/requiem1.png" class="cover__img" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="autora" class="mt__2">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col">
+              <h3>Conoce a la autora</h3>
+            </div>
+          </div>
+        </div>
+        <div class="container mt__1">
+          <div class="row align-items-start">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+              <p class="autor">Lauren Oliver</p>
+              <p class="text__justify">
+                Escritora americana, Lauren Oliver es conocida por sus numerosas
+                novelas del género Young adult, en especial su trilogía
+                Delirium, Panic o Si no despierto, novela cuya adaptación
+                cinematográfica llegó a España en el año 2017.
+              </p>
+              <p class="text__justify">
+                De familia escritora, desde pequeña era una ávida lectora y
+                escritora, creaba historias y cuentos sobre su día a día o
+                fantasías, tiene muchas aficiones como el ballet, pintura,
+                canto… que continua haciendo hoy en día. Oliver estudió
+                Filosofía y Literatura en la Universidad de Chicago e hizo un
+                master de Bellas Artes en la Universidad de Nueva York, allí
+                empezó a trabajar como asistente editorial y en 2010 cofundó
+                junto con la poeta Lexa Hillyer una editorial para jóvenes
+                autores: Glasstown. Actualmente reside en Brookly y se dedica a
+                tiempo completo a escribir.
+              </p>
+              <p class="text__justify">
+                Sus obras están marcadas por diferentes elementos como romance,
+                fantasía, terror o una ambientación distópica, ha tocado
+                diferentes géneros, tanto en el ámbito juvenil como en el
+                adulto.
+              </p>
+            </div>
+            <div
+              class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 text__center"
+            >
+              <img
+                src="img/lauren-oliver-author.jpg"
+                class="img-fluid autor__img"
+                alt="Autora Lauren Oliver"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="saga" class="mt__2">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col">
+              <h3>Saga Delirium</h3>
+            </div>
+          </div>
+        </div>
+        <div class="container mt__1 text__center">
+          <div class="row align-items-center m__auto justify-content-center">
+            <div
+              class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt__1 pl__3"
+            >
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/delirium-card.png"
+                  class="card-img-top"
+                  alt="Cover del libro Delirium"
+                />
+                <div class="card-body">
+                  <h5 class="card-title delirium delirium">Delirium</h5>
+                  <p class="card-text">
+                    El amor causa sufrimiento. Por eso en la avanzada sociedad
+                    del siglo XXIII la gente se somete, a los dieciocho años, a
+                    una intervención quirúrgica donde les extraen la parte del
+                    cerebro que controla las emociones. Es, gracias a eso, una
+                    sociedad libre de todo tormento sentimental.
+                  </p>
+                  <p class="text__center">
+                    <button
+                      type="button"
+                      class="btn btn-primary delirium__button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#deliriumModal"
+                    >
+                      Ver más
+                    </button>
+                  </p>
+                  <div
+                    class="modal fade"
+                    id="deliriumModal"
+                    tabindex="-1"
+                    aria-labelledby="deliriumModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header delirium__bg">
+                          <h5 class="modal-title" id="deliriumModalLabel">
+                            Delirium
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <h4 class="delirium__title">Sinopsis</h4>
+                          <p class="text__justify">
+                            El amor causa sufrimiento. Por eso en la avanzada
+                            sociedad del siglo XXIII la gente se somete, a los
+                            dieciocho años, a una intervención quirúrgica donde
+                            les extraen la parte del cerebro que controla las
+                            emociones. Es, gracias a eso, una sociedad libre de
+                            todo tormento sentimental. Lena Holowey está a
+                            apunto de llegar a su mayoría de edad y espera,
+                            desde hace mucho tiempo, esa operación, que la
+                            transformará en una persona sin emociones, pero se
+                            encuentra con un pequeño inconveniente: se enamora.
+                          </p>
+                          <h4 class="delirium__title">Detalles</h4>
+                          <table class="table">
+                            <tbody>
+                              <tr>
+                                <th scope="row">Editorial:</th>
+                                <td>Ediciones Sm</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Año de edición:</th>
+                                <td>2013</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Materia</th>
+                                <td colspan="2">Literatura Juvenil</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">ISBN:</th>
+                                <td>9786072406827</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Encuadernación:</th>
+                                <td>Rústica</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary delirium__button"
+                            data-bs-dismiss="modal"
+                          >
+                            Cerrar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt__1 pl__3"
+            >
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/pandemonium-card.png"
+                  class="card-img-top"
+                  alt="Cover del libro pandemonium"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Pandemonium</h5>
+                  <p class="card-text">
+                    Lena ha llegado a Tierra Salvaje y se ha salvado, pero el
+                    camino no ha sido fácil. Poco a poco, va recordando los
+                    pasos que le han llevado hasta la comunidad de inválidos a
+                    la que pertenece. Pero ahora Lena es un miembro de la
+                    Resistencia, y tiene una misión importante.
+                  </p>
+                  <p class="text__center">
+                    <button
+                      type="button"
+                      class="btn btn-primary pandemonium"
+                      data-bs-toggle="modal"
+                      data-bs-target="#pandemoniumModal"
+                    >
+                      Ver más
+                    </button>
+                  </p>
+                  <div
+                    class="modal fade"
+                    id="pandemoniumModal"
+                    tabindex="-1"
+                    aria-labelledby="pandemoniumModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header pandemonium__bg">
+                          <h5 class="modal-title" id="pandemoniumModalLabel">
+                            Pandemonium
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <h4 class="pandemonium__title">Sinopsis</h4>
+                          <p class="text__justify">
+                            Lena ha llegado a Tierra Salvaje y se ha salvado,
+                            pero el camino no ha sido fácil. Poco a poco, va
+                            recordando los pasos que le han llevado hasta la
+                            comunidad de inválidos a la que pertenece. Pero
+                            ahora Lena es un miembro de la Resistencia, y tiene
+                            una misión importante : luchar por un mundo donde el
+                            amor no sea considerado una enfermedad. En el
+                            camino, mientras intenta lidiar con la pérdida de
+                            Alex, empezará a sentir algo por Julian, otro
+                            miembro de la resistencia.
+                          </p>
+                          <h4 class="pandemonium__title">Detalles</h4>
+                          <table class="table">
+                            <tbody>
+                              <tr>
+                                <th scope="row">Editorial:</th>
+                                <td>Ediciones Sm</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Año de edición:</th>
+                                <td>2014</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Materia</th>
+                                <td colspan="2">Literatura Juvenil</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">ISBN:</th>
+                                <td>9786072412705</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Páginas:</th>
+                                <td>379</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Encuadernación:</th>
+                                <td>Rústica</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary pandemonium"
+                            data-bs-dismiss="modal"
+                          >
+                            Cerrar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 mt__1 pl__3"
+            >
+              <div class="card" style="width: 18rem">
+                <img
+                  src="img/requirem-card.png"
+                  class="card-img-top"
+                  alt="Cover del libro requirem"
+                />
+                <div class="card-body">
+                  <h5 class="card-title requiem">Requiem</h5>
+                  <p class="card-text">
+                    Han tratado de acabar con nosotros. Pero todavía estamos
+                    aquí. Y cada día somos más. Quizá tengan razón y nuestros
+                    sentimientos nos vuelven locos. Tal vez el amor es una
+                    enfermedad de la que tendríamos que curarnos. Sin embargo,
+                    hemos elegido un camino diferente.
+                  </p>
+                  <p class="text__center">
+                    <button
+                      type="button"
+                      class="btn btn-primary requiem__button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#requiemModal"
+                    >
+                      Ver más
+                    </button>
+                  </p>
+                  <div
+                    class="modal fade"
+                    id="requiemModal"
+                    tabindex="-1"
+                    aria-labelledby="requiemModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header requiem__bg">
+                          <h5 class="modal-title" id="requiemModalLabel">
+                            Requiem
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <h4 class="requiem__title">Sinopsis</h4>
+                          <p class="text__justify">
+                            Literatura Juvenil Requiem / Trilogia Delirium
+                            Oliver, Lauren Añadir comentario Compartir: Han
+                            tratado de acabar con nosotros. Pero todavía estamos
+                            aquí. Y cada día somos más. Quizá tengan razón y
+                            nuestros sentimientos nos vuelven locos. Tal vez el
+                            amor es una enfermedad de la que tendríamos que
+                            curarnos. Sin embargo, hemos elegido un camino
+                            diferente. Y al final, esa es la mejor cura: ser
+                            libres para elegir. Ser libres para elegir... aunque
+                            sea equivocadamente. La rebelión que tomó forma en
+                            "Pademonium" se ha transformado en una revolución
+                            sin cuartel en "Requiem". Y en el centro de esa
+                            lucha está Lena, nuestra protagonista.
+                          </p>
+                          <p class="text__justify">
+                            Requiem está narrada siguiendo los puntos de vista
+                            de Lena y Hana. Su vida, que ha discurrido separada
+                            tras los últimos acontecimientos narrados a lo largo
+                            de los dos primeros títulos de la saga
+                            ("Delirium"y"Pandemonium") por fin converge en un
+                            final explosivo.
+                          </p>
+                          <h4 class="requiem__title">Detalles</h4>
+                          <table class="table">
+                            <tbody>
+                              <tr>
+                                <th scope="row">Editorial:</th>
+                                <td>Ediciones Sm</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Año de edición:</th>
+                                <td>2016</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Materia</th>
+                                <td colspan="2">Literatura Juvenil</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">ISBN:</th>
+                                <td>9786072415997</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Páginas:</th>
+                                <td>448</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Encuadernación:</th>
+                                <td>Rústica</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary requiem__button"
+                            data-bs-dismiss="modal"
+                          >
+                            Cerrar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="modal fade"
+                    id="deliriumModal"
+                    tabindex="-1"
+                    aria-labelledby="deliriumModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header delirium__bg">
+                          <h5 class="modal-title" id="deliriumModalLabel">
+                            Delirium
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <h4 class="delirium__title">Sinopsis</h4>
+                          <p class="text__justify">
+                            El amor causa sufrimiento. Por eso en la avanzada
+                            sociedad del siglo XXIII la gente se somete, a los
+                            dieciocho años, a una intervención quirúrgica donde
+                            les extraen la parte del cerebro que controla las
+                            emociones. Es, gracias a eso, una sociedad libre de
+                            todo tormento sentimental. Lena Holowey está a
+                            apunto de llegar a su mayoría de edad y espera,
+                            desde hace mucho tiempo, esa operación, que la
+                            transformará en una persona sin emociones, pero se
+                            encuentra con un pequeño inconveniente: se enamora.
+                          </p>
+                          <h4 class="delirium__title">Detalles</h4>
+                          <table class="table">
+                            <tbody>
+                              <tr>
+                                <th scope="row">Editorial:</th>
+                                <td>Ediciones Sm</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Año de edición:</th>
+                                <td>2013</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Materia</th>
+                                <td colspan="2">Literatura Juvenil</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">ISBN:</th>
+                                <td>9786072406827</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Encuadernación:</th>
+                                <td>Rústica</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary delirium__button"
+                            data-bs-dismiss="modal"
+                          >
+                            Cerrar
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="otrasObras" class="mt__2">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col">
+              <h3>Otras obras</h3>
+            </div>
+          </div>
+        </div>
+        <div class="container mt__1">
+          <div class="row align-items-start">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button
+                    class="nav-link active"
+                    id="nav-home-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#nav-home"
+                    type="button"
+                    role="tab"
+                    aria-controls="nav-home"
+                    aria-selected="true"
+                  >
+                    Delirium stories
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="nav-broken-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#nav-broken"
+                    type="button"
+                    role="tab"
+                    aria-controls="nav-broken"
+                    aria-selected="false"
+                  >
+                    Broken things
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="nav-ringer-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#nav-ringer"
+                    type="button"
+                    role="tab"
+                    aria-controls="nav-ringer"
+                    aria-selected="false"
+                  >
+                    Ringer
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="nav-replica-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#nav-replica"
+                    type="button"
+                    role="tab"
+                    aria-controls="nav-replica"
+                    aria-selected="false"
+                  >
+                    Replica
+                  </button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="nav-home"
+                  role="tabpanel"
+                  aria-labelledby="nav-home-tab"
+                >
+                  <div class="container mt__1">
+                    <div class="row align-items-center">
+                      <div
+                        class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text__center mt__1"
+                      >
+                        <img
+                          src="img/delirium-stories.jpg"
+                          alt="Historias de delirium"
+                          class="stories__img"
+                        />
+                      </div>
+                      <div
+                        class="col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 mt__1"
+                      >
+                        <p class="text__justify">
+                          El compañero de la colección de cuentos de la trilogía
+                          más vendida del New York Times de Lauren Oliver sobre
+                          el amor prohibido, la revolución y el poder de elegir.
+                          Ahora, con una nueva portada y un adelanto exclusivo
+                          de este libro de su próxima novela para adolescentes
+                          de ella: la ambiciosa y totalmente original obra
+                          maestra Réplica.
+                        </p>
+                        <p class="text__justify">
+                          Las historias cortas de Lauren Oliver sobre Hana,
+                          Annabel, Raven y Alex amplían y enriquecen el mundo de
+                          Delirium, iluminando eventos y personajes a través de
+                          nuevas perspectivas.
+                        </p>
+                        <p class="text__justify">
+                          Hana agrega matices al verano que cambia la vida antes
+                          de que las mejores amigas Lena y Hana se curen, un
+                          momento en el que los caminos de las niñas divergen y
+                          su futuro se altera para siempre.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="nav-broken"
+                  role="tabpanel"
+                  aria-labelledby="nav-broken-tab"
+                >
+                  <div class="container mt__1">
+                    <div class="row align-items-center">
+                      <div
+                        class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text__center mt__1"
+                      >
+                        <img
+                          src="img//borken-things.png"
+                          alt="Libro broken things"
+                          class="stories__img"
+                        />
+                      </div>
+                      <div
+                        class="col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 mt__1"
+                      >
+                        <p class="text__justify">
+                          Todos piensan que Mia y Brynn mataron a su mejor
+                          amiga. Que impulsadas por su obsesión con una novela
+                          llamada The Way into Lovelorn, las tres chicas se
+                          habían imaginado a sí mismas en el mundo mágico donde
+                          sus fantasías se volvieron retorcidas, incluso
+                          mortales.
+                        </p>
+                        <p class="text__justify">
+                          En el aniversario de la muerte de Summer, un
+                          descubrimiento aparentemente insignificante resucita
+                          el misterio y vuelve a unir a Mia y Brynn. Pero a
+                          medida que las líneas entre el pasado y el presente y
+                          la ficción y la realidad comienzan a desdibujarse, las
+                          chicas deben confrontar lo que realmente sucedió en el
+                          bosque hace tantos años, sin importar cuán monstruoso
+                          sea.
+                        </p>
+                        <p class="text__justify">
+                          Con toda la intensidad y los latigazos de Gone Girl y
+                          One of Us Is Lying, este apasionante thriller
+                          psicológico de la autora superventas del New York
+                          Times Lauren Oliver es una historia fascinante e
+                          inolvidable de obsesión exquisita, inocencia mimada y
+                          amistades imposibles.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="nav-ringer"
+                  role="tabpanel"
+                  aria-labelledby="nav-ringer-tab"
+                >
+                  <div class="container mt__1">
+                    <div class="row align-items-center">
+                      <div
+                        class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text__center mt__1"
+                      >
+                        <img
+                          src="img/ringer.png"
+                          alt="Libro Ringer"
+                          class="stories__img"
+                        />
+                      </div>
+                      <div
+                        class="col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 mt__1"
+                      >
+                        <p class="text__justify">
+                          En el mundo fuera del Instituto Haven, a Lyra y Caelum
+                          les resulta difícil ser humanos, y Lyra, infectada en
+                          Haven con una terrible enfermedad, descubre que sus
+                          síntomas empeoran. Cuando Caelum se va sin previo
+                          aviso, Lyra lo sigue en busca de una organización
+                          pionera en Filadelfia que podría tener una cura. Pero
+                          lo que descubren allí es una conexión impactante con
+                          su pasado, incluso cuando su futuro parece estar en
+                          peligro de colapsar.
+                        </p>
+                        <p class="text__justify">
+                          Aunque Gemma solo quiere volver a su vida normal
+                          después de Haven, pronto se entera de que su poderoso
+                          padre tiene otros planes para las réplicas, a menos
+                          que ella y su novio Pete puedan detenerlo. Pero pronto
+                          descubren que tampoco están a salvo. El Instituto
+                          Haven no fue destruido después de todo, y ahora Gemma
+                          es la que está detrás de las paredes.
+                        </p>
+                        <p class="text__justify">
+                          La autora superventas Lauren Oliver lleva la duología
+                          de Réplica a un final impactante en Ringer, pero al
+                          igual que Gemma y Lyra, no podrás dejar atrás el mundo
+                          de Haven una vez que hayas pasado la última página.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="nav-replica"
+                  role="tabpanel"
+                  aria-labelledby="nav-replica-tab"
+                >
+                  <div class="container mt__1">
+                    <div class="row align-items-center">
+                      <div
+                        class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text__center mt__1"
+                      >
+                        <img
+                          src="img/Replica.jpg"
+                          alt="Libro Réplica"
+                          class="stories__img"
+                        />
+                      </div>
+                      <div
+                        class="col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8 mt__1"
+                      >
+                        <p class="text__justify">
+                          De Lauren Oliver, autora superventas del New York
+                          Times de Before I Fall y la trilogía Delirium, llega
+                          una novela épica y magistral que explora cuestiones de
+                          individualidad, identidad y humanidad. Réplica es un
+                          "libro animado" que contiene dos narraciones en una.
+                          Gire el libro hacia un lado y lea la historia de Lyra;
+                          voltea el libro y lee la historia de Gemma.
+                        </p>
+                        <p class="text__justify">
+                          Las historias se pueden leer por separado, una tras
+                          otra, o en capítulos alternos. Las dos partes
+                          distintas de esta asombrosa novela se combinan para
+                          producir un viaje inolvidable. Incluso la innovadora
+                          cubierta del libro refleja y amplía la experiencia de
+                          lectura.
+                        </p>
+                        <p class="text__justify">
+                          Si bien las historias de Lyra y Gemma se reflejan
+                          entre sí, cada una contiene revelaciones asombrosas de
+                          importancia crítica para la otra historia. Replica es
+                          una obra maestra ambiciosa que invita a la reflexión.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contacto" class="mt__2">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col">
+              <h3>Contacto</h3>
+            </div>
+          </div>
+        </div>
+        <div class="container mt__1">
+          <div class="row align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+              <p class="text__center">
+                Si tienes alguna duda, comentario o solicitud completa y envía
+                el siguiente formulario.
+                <span class="form__strong"
+                  >¡Daremos respuesta a tu solicitud muy pronto!</span
+                >
+              </p>
+              <div class="mb-3 mt__2">
+                <label
+                  for="exampleFormControlInput1"
+                  class="form-label form__label"
+                  >Nombre completo</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Lauren Oliver"
+                />
+              </div>
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlInput1"
+                  class="form-label form__label"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlTextarea1"
+                  class="form-label form__label"
+                  >Tipo de solicitud</label
+                ><select
+                  class="form-select"
+                  aria-label="Default select example"
+                >
+                  <option selected>Tipo de solicitud</option>
+                  <option value="1">Duda</option>
+                  <option value="2">Comentario</option>
+                  <option value="3">Solicitud</option>
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlTextarea1"
+                  class="form-label form__label"
+                  >Mensaje</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+            </div>
+            <div
+              class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text__center"
+            >
+              <button type="button" class="btn btn-primary send__button">
+                Enviar
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row align-items-center">
+          <div
+            class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text__center"
+          >
+            <p class="mt__1">Todos los derechos reservados | 2022</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

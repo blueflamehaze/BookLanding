@@ -1,0 +1,315 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  padding: 0.5rem 2rem !important;
+  justify-content: space-between;
+}
+.carousel-caption {
+  bottom: 5rem !important;
+}
+.pr__2 {
+  padding-right: 2rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff !important;
+}
+.bg-primary {
+  background-color: #020f21 !important;
+}
+.logo {
+  width: 250px;
+}
+.book__title {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 5.5rem;
+  font-weight: 600;
+  line-height: 120px;
+}
+.book__subtitle {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 3rem;
+  line-height: 50px;
+}
+.book__description {
+  font-size: 1.3rem;
+}
+.book__button {
+  background-color: #fff;
+  color: teal;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+.book__button:hover {
+  background-color: teal;
+  color: #fff;
+  width: 100px;
+  padding: 0.5rem 1rem;
+}
+.book__button > a {
+  text-decoration: none;
+  color: teal;
+}
+.book__button:hover > a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.autor {
+  font-family: "Charm", cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.autor__img {
+  width: 70%;
+  box-shadow: 44px -9px teal;
+  margin-top: 1rem;
+}
+.text__center {
+  text-align: center;
+}
+.text__justify {
+  text-align: justify;
+}
+.text__left {
+  text-align: left;
+}
+.mt__1 {
+  margin-top: 1rem;
+}
+.mt__2 {
+  margin-top: 2rem;
+}
+.delirium {
+  color: teal;
+}
+.delirium__title {
+  color: teal;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.delirium__bg {
+  background-color: teal;
+  color: #fff;
+}
+.btn-close {
+  color: #fff !important;
+}
+.delirium__button {
+  background-color: teal;
+  color: #fff;
+  border: none;
+}
+.delirium__button:hover {
+  background-color: rgb(2, 46, 46);
+  color: #fff;
+  border: none;
+}
+.card-text {
+  text-align: justify;
+}
+.pandemonium {
+  background-color: #3a3635;
+  color: #fff;
+  border: none;
+}
+.pandemonium__bg {
+  background-color: #3a3635;
+  color: #fff;
+}
+.pandemonium__title {
+  color: #3a3635;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.pandemonium:hover {
+  background-color: #131211;
+  color: #fff;
+  border: none;
+}
+.requiem {
+  color: #5e0202;
+}
+.requiem__button {
+  background-color: #5e0202;
+  color: #fff;
+  border: none;
+}
+.requiem__button:hover {
+  background-color: #310202;
+  color: #fff;
+  border: none;
+}
+.requiem__bg {
+  background-color: #5e0202;
+  color: #fff;
+}
+.requiem__title {
+  color: #5e0202;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.stories__img {
+  width: 200px;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background-color: #020f21 !important;
+  color: #fff !important;
+}
+.nav-tabs .nav-link {
+  color: teal !important;
+}
+.form__strong {
+  font-weight: 600;
+  color: #020f21;
+}
+.form__label {
+  color: teal !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.send__button {
+  background-color: teal;
+  color: #fff;
+  border: none;
+}
+.send__button:hover {
+  background-color: rgb(5, 59, 59);
+  color: #fff;
+  border: none;
+}
+.m__auto {
+  margin: auto;
+}
+.pl__3 {
+  padding-left: 3%;
+}
+footer {
+  background-color: #020f21;
+  color: #fff;
+}
+h3 {
+  font-family: "Charm", cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: teal;
+  font-weight: 600;
+}
+#autora,
+#otrasObras,
+#contacto {
+  padding: 2rem 3rem;
+}
+@media screen and (max-width: 375px) {
+  .logo {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 375px) and (min-width: 321px) {
+  .pl__3 {
+    padding-left: 9%;
+  }
+}
+@media screen and (max-width: 425px) and (min-width: 376px) {
+  .pl__3 {
+    padding-left: 15%;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .carousel-caption {
+    bottom: 2rem !important;
+  }
+  .cover__img {
+    width: 200px;
+  }
+  .book__title {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .book__subtitle {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 1rem;
+    line-height: 10px;
+  }
+  .book__description {
+    font-size: 0.8rem;
+  }
+  .book__button {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .carousel-caption {
+    bottom: 2rem !important;
+  }
+  .cover__img {
+    width: 300px;
+  }
+  .book__title {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 425px) and (min-width: 376px) {
+  #carouselBooks {
+    margin-top: 4rem;
+  }
+  .mobile__img {
+    display: none;
+  }
+  .carousel-caption {
+    bottom: 2rem !important;
+    right: 0;
+    left: 0;
+  }
+  .book__title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 10px;
+  }
+  .book__subtitle {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 1rem;
+    line-height: 10px;
+  }
+  .book__description {
+    font-size: 0.8rem;
+  }
+  .book__button {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) and (min-width: 320px) {
+  #carouselBooks {
+    margin-top: 3rem;
+  }
+  .mobile__img {
+    display: none;
+  }
+  .carousel-caption {
+    bottom: 1rem !important;
+    right: 0;
+    left: 0;
+  }
+  .book__title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1px;
+  }
+  .book__subtitle {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 0.5rem;
+    line-height: 1px;
+  }
+  .book__description {
+    font-size: 0.5rem;
+  }
+  .book__button {
+    display: none;
+  }
+}
